@@ -1,0 +1,19 @@
+{
+  "name": "api.hrms",
+  "version": "1.0.0",
+  "description": "A simple and efficient HR management system to manage employee records 👨‍💼👩‍💼, attendance 📅, leave requests 📝, roles 🔐, and more — designed to streamline HR operations and boost team productivity 🚀.",
+  "main": "src/server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuchrahimanshu/api.hrms.git"
+  },
+  "author": "Himanshu Chuchra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chuchrahimanshu/api.hrms/issues"
+  },
+  "homepage": "https://github.com/chuchrahimanshu/api.hrms#readme"
+}
