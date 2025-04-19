@@ -2,9 +2,9 @@
   "name": "api.hrms",
   "version": "1.0.0",
   "description": "A simple and efficient HR management system to manage employee records 👨‍💼👩‍💼, attendance 📅, leave requests 📝, roles 🔐, and more — designed to streamline HR operations and boost team productivity 🚀.",
-  "main": "index.js",
+  "main": "src/server.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/server.ts"
   },
   "repository": {
     "type": "git",
@@ -19,9 +19,12 @@
   "dependencies": {
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
-    "typescript": "^5.8.3"
+    "mongoose": "^8.13.2"
   },
   "devDependencies": {
-    "@types/express": "^5.0.1"
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.14.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
   }
 }
