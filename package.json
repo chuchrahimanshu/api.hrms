@@ -2,7 +2,7 @@
   "name": "api.hrms",
   "version": "1.0.0",
   "description": "A simple and efficient HR management system to manage employee records 👨‍💼👩‍💼, attendance 📅, leave requests 📝, roles 🔐, and more — designed to streamline HR operations and boost team productivity 🚀.",
-  "main": "src/server.ts",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/chuchrahimanshu/api.hrms/issues"
   },
-  "homepage": "https://github.com/chuchrahimanshu/api.hrms#readme"
+  "homepage": "https://github.com/chuchrahimanshu/api.hrms#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1"
+  }
 }
